@@ -6,14 +6,14 @@ A simplified implementation of the `grep` cli written in Rust.
 
 Case sensitive search
 
-```rs
+```sh
 cargo run -- <query> <file_path>
 # i.e cargo run -- body poem.txt
 ```
 
 Case insensitive search
 
-```rs
+```sh
 IGNORE_CASE=1 cargo run -- <query> <file_path>
 # i.e IGNORE_CASE=1 cargo run -- BoDy poem.txt
 ```
